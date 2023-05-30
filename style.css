@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation{
+    background-color:  rgb(54, 151, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+}
+
+.heading{
+    margin-left: 50px;
+}
+
+.nav-components .active a{
+    text-decoration: none;
+    color: white    ;
+}
+
+.nav-components .active{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.nav-components ul li:hover{
+    border-radius: 8px;
+    height: 55px;
+}
+
+.content-a{
+    margin-left: 50px;
+    margin-top: 80px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.fun{
+    color:rgb(34, 122, 88);
+}
+
+.content-b{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.image img{
+    margin-top: 80px;
+    height: 500px;
+    width: 550px;
+    border-top-left-radius: 10px ;
+    margin-right: 0%;
+    padding-right: 0%;
+    margin-bottom: 0px;
+}
+
+.image{
+    width: max-content;
+}
+
+.homepage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover{
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 60px;
+    background-color: rgb(35, 128, 93);
+    padding: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.discover a{
+    text-decoration: none;
+    color: white;
+}
+
+.view{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 70px;
+}
+
+.view a{
+    color: rgb(24, 117, 82) ;
+}
+
+.left{
+    display: flex;
+    gap: 50px;
+}
+
+.overlap{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(35, 128, 93);
+    margin-right: 0px;
+    width: 700px;
+    margin-top: 0%;
+    border-top-left-radius: 10px;
+    position: absolute;
+    top: 600px;
+    right: 0px;
+    height: 180px;
+}
+
+.building{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.plus{
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+.matter{
+    margin-top: 7px;
+}
+
+.inner{
+    display: flex;
+    gap: 110px;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.square{
+    height:10px;
+    width: 10px;
+    background-color:  rgb(35, 128, 93) ;
+}
+
+.pro{
+    font-weight: 700;
+}
+
+.product{
+    margin-left: 50px;
+    display: flex;
+    gap:10px;
+    align-items: baseline;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.image-4 img{
+    width: 100px;
+    margin-top: 10px;
+}
+.image-5 img{
+    width: 100px;
+    margin-top: 8px;
+}
+
+.image-6 img{
+    width: 100px;
+    margin-top: 10px;
+}
+
+.company{
+    margin-left: 300px;
+    display: flex;
+    justify-content: baseline;
+    gap: 30px;
+
+}
+
+.brand{
+    margin-top: 50px;
+    display: flex;
+    gap: 600px;
+}
+
+.head{
+    margin-left: 50px;
+    text-align: center;
+}
+
+.custom{
+    color:rgb(34, 122, 88);
+}
+
+.para{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.more{
+    margin-top: 30px;
+}
+
+.sold{  
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-1, .card-2, .card-3 {
+    display: flex;
+    gap: 50px;
+}
+
+.num-1, .num-2, .num-3{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(34, 122, 88);
+}
+
+.tag-1, .tag-2, .tag-3{
+    font-weight: 550;
+}
+
+.footer{
+    background-color:  rgb(70, 136, 111);
+    height: 350px;
+    color: white;
+    margin-top: 60px;
+}
+
+.stay{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.end{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icon i{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.copy{
+    background-color: rgb(0, 86, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 30px;
+    padding-top: 6px;
+}
+
+.copyleft{
+    padding-right: 20px;
+}
+
+.name{
+    margin-right: 10px;
+}
+
+/* @media all and (max-width: 100px)
+{
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+} */
